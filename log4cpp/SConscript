@@ -1,0 +1,14 @@
+Import('env')
+env = env.Clone()
+
+memory_cpps = env.aDirs('memory')
+
+cpps = [ memory_cpps,
+]
+
+target = env.aLibraryAndInstall(
+            target = 'log4cpp',
+            source = cpps,
+            LIBS = [],
+            package = env['project_name']
+)

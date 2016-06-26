@@ -1,0 +1,7 @@
+Import('env')
+
+env = env.Clone()
+
+cpps = Glob('*.cpp')
+env.aDirs('test')
+Return(['cpps'])
