@@ -1,3 +1,3 @@
 # code_rover
 frankcl's private code repository
-it contains some basic projects, for example log4cpp ... 
+log4cpp is a log system that is achieved by language cpp
