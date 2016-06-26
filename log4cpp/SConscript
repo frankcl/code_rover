@@ -1,9 +1,11 @@
 Import('env')
 env = env.Clone()
 
-memory_cpps = env.aDirs('memory')
+format_cpps = env.aDirs('format')
+appender_cpps = env.aDirs('appender')
 
-cpps = [ memory_cpps,
+cpps = [ format_cpps,
+         appender_cpps,
 ]
 
 target = env.aLibraryAndInstall(
