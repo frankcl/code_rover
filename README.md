@@ -1,0 +1,3 @@
+# code_rover
+frankcl's private code repository
+it contains some basic projects, for example log4cpp ... 
